@@ -1,0 +1,105 @@
+<div class="card rounded-3">
+    <div class="card-body p-4">
+
+        <!-- Title -->
+        <span class="fs-6">Lista de tareas</span>
+        <p class="mb-2"><span class="h2 me-2">Acuerdos de equipo</span>
+        </p>
+        <p class="text-muted pb-2">04/01/2020 • AS221 - TEI</p>
+
+        <!-- Input text -->
+        <div class="input-group mb-4">
+            <input type="text" class="form-control" placeholder="Agregar tarea" aria-label="Agregar tarea"
+                aria-describedby="btn-add-task">
+            <button class="btn btn-primary" type="button" id="btn-add-task">Agregar</button>
+        </div>
+
+        <!-- Nav -->
+        <ul class="nav nav-underline mb-4">
+            <li class="nav-item cursor-pointer">
+                <a class="nav-link neutral active">Todos</a>
+            </li>
+            <li class="nav-item cursor-pointer">
+                <a class="nav-link neutral">Activos</a>
+            </li>
+            <li class="nav-item cursor-pointer">
+                <a class="nav-link neutral">Completados</a>
+            </li>
+        </ul>
+
+        <!-- Task list -->
+        <ul class="list-group mb-0">
+            <li class="list-group-item d-flex justify-content-between align-items-center border-0 mb-2 rounded"
+                style="background-color: #f4f6f7;">
+                <div>
+                    <input class="form-check-input me-2" type="checkbox" value="" aria-label="..." checked="">
+                    <span class="text-decoration-line-through">Task list and assignments</span>
+                </div>
+                <div class="btn-delete-task cursor-pointer">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-trash-fill" viewBox="0 0 16 16">
+                        <path
+                            d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z" />
+                    </svg>
+                </div>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center border-0 mb-2 rounded"
+                style="background-color: #f4f6f7;">
+                <div>
+                    <input class="form-check-input me-2" type="checkbox" value="" aria-label="..." checked="">
+                    <span class="text-decoration-line-through">Set due date and assignments</span>
+                </div>
+                <div class="btn-delete-task cursor-pointer">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-trash-fill" viewBox="0 0 16 16">
+                        <path
+                            d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z" />
+                    </svg>
+                </div>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center border-0 mb-2 rounded"
+                style="background-color: #f4f6f7;">
+                <div>
+                    <input class="form-check-input me-2" type="checkbox" value="" aria-label="...">
+                    <span>Remove duplicate tasks and stories</span>
+                </div>
+                <div class="btn-delete-task cursor-pointer">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-trash-fill" viewBox="0 0 16 16">
+                        <path
+                            d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z" />
+                    </svg>
+                </div>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center border-0 mb-2 rounded"
+                style="background-color: #f4f6f7;">
+                <div>
+                    <input class="form-check-input me-2" type="checkbox" value="" aria-label="...">
+                    <span>Update the userflow and stories</span>
+                </div>
+                <div class="btn-delete-task cursor-pointer">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-trash-fill" viewBox="0 0 16 16">
+                        <path
+                            d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z" />
+                    </svg>
+                </div>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center border-0 mb-0 rounded"
+                style="background-color: #f4f6f7;">
+                <div>
+                    <input class="form-check-input me-2" type="checkbox" value="" aria-label="...">
+                    <span>Update the userflow and stories</span>
+                </div>
+                <div class="btn-delete-task cursor-pointer">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-trash-fill" viewBox="0 0 16 16">
+                        <path
+                            d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z" />
+                    </svg>
+                </div>
+            </li>
+        </ul>
+
+    </div>
+</div>
